@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>京都のボイスパーカッション教室 | ご予約・お問い合わせフォーム</title>
+  </head>
+  <header class="header">
+  <h1 class="logo"><h1>京都のボイスパーカッション教室</h1
+>
+
+  <!-- ハンバーガーメニュー用チェックボックス -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- メニュー -->
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html#news">お知らせ</a></li>
+      <li><a href="index.html#koushi">講師紹介</a></li>
+      <li><a href="lesson.html#lesson">レッスンについて</a></li>
+      <li><a href="lesson.html#voice">生徒・保護者の声</a></li>
+      <li><a href="#">お問い合わせ・ご予約フォーム</a></li>
+    </ul>
+  </nav>
+</header>
+  <body>
+    <form action="send.php" method="POST">
+  <label>お名前：</label>
+  <input type="text" name="name" required>
+
+  <label>メールアドレス：</label>
+  <input type="email" name="email" required>
+
+  <label>お問い合わせ種類：</label>
+ <label class="ECM_RadioInput"><input class="ECM_RadioInput-Input" 
+  type="radio" name="radio"><span class="ECM_RadioInput-DummyInput"></span>
+  <span class="ECM_RadioInput-LabelText">体験レッスンお申し込み</span></label>
+
+<label class="ECM_RadioInput"><input class="ECM_RadioInput-Input" 
+  type="radio" name="radio"><span class="ECM_RadioInput-DummyInput"></span>
+  <span class="ECM_RadioInput-LabelText">お問い合わせ</span></label>
+
+  <label>お問い合わせ内容：</label>
+  <textarea name="message" rows="5" required></textarea>
+
+  <input type="submit" value="送信">
+</form>
+    <footer class="footer">
+&copy;2026 京都のボイスパーカッション教室 All Right Reserved.
+</footer>
+  </body>
+</html>
