@@ -1,7 +1,7 @@
 const images_pc = [
-  "images/top_1_PC.png",
-  "images/top_2_PC.png",
-  "images/top_3_PC.png"
+  "images/top_1_pc.png",
+  "images/top_2_pc.png",
+  "images/top_3_pc.png"
 ];
 
 const images_sp = [
